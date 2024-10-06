@@ -1,4 +1,4 @@
-group 'com.ixsans.text_to_speech'
+group 'com.dola.flutter_text_to_speech'
 version '1.0-SNAPSHOT'
 
 buildscript {
