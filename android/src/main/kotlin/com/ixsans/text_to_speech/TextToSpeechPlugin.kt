@@ -1,4 +1,5 @@
-package ixsans.text_to_speech
+
+package com.ixsans.text_to_speech
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.engine.plugins.FlutterPlugin

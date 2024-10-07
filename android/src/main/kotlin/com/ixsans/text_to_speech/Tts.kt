@@ -1,4 +1,4 @@
-package ixsans.text_to_speech
+package com.ixsans.text_to_speech
 
 import android.content.Context
 import android.os.Bundle
