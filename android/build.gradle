@@ -26,9 +26,9 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
-    if (project.android.hasProperty("namespace")) {
+    
         namespace('com.dola.flutter_text_to_speech')
-    }
+    
     
 
     sourceSets {
