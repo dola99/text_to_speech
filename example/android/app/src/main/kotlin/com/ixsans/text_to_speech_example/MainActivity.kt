@@ -1,4 +1,4 @@
-package com.dola.flutter_text_to_speech_example
+package ixsans.text_to_speech_example
 
 import io.flutter.embedding.android.FlutterActivity
 

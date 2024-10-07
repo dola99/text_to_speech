@@ -1,4 +1,4 @@
-group 'com.dola.flutter_text_to_speech'
+group 'ixsans.text_to_speech'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 30
     
-        namespace('com.dola.flutter_text_to_speech')
+        namespace('ixsans.text_to_speech')
     
     
 

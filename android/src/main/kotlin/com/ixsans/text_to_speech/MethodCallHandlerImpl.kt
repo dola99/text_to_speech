@@ -1,4 +1,4 @@
-package com.dola.flutter_text_to_speech
+package ixsans.text_to_speech
 
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.MethodCall
