@@ -25,11 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
-    
-        namespace('com.ixsans.text_to_speech')
-    
-    
+    compileSdkVersion 34
+
+    namespace 'com.ixsans.text_to_speech'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -37,8 +35,12 @@ android {
     defaultConfig {
         minSdkVersion 21
     }
-}
 
+    // Add this block to set the JVM target
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
